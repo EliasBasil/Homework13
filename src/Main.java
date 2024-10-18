@@ -5,6 +5,9 @@ public class Main {
         Book lordOfTheRings = new Book("Lord of the rings", johnTolkien, 1954);
         Book windAndTruth = new Book("Wind and truth", brandonSanderson, 2023);
         windAndTruth.setYear(2024);
+
+        System.out.println(johnTolkien);
+        System.out.println(lordOfTheRings);
     }
 }
 
